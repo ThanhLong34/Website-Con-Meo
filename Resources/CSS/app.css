@@ -1,0 +1,26 @@
+.heading-text {
+  color: green;
+  font-size: 50px;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.image-cat {
+  overflow: hidden;
+  width: 30%;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin: auto;
+  transition: transform ease 0.5s;
+}
+.image-wrap {
+  filter: drop-shadow(0 0 8px black);
+}
+.image-checkbox {
+  display: none;
+}
+.image-checkbox:checked + .image-cat {
+  transform: rotateY(180deg) scale(1.3);
+}
